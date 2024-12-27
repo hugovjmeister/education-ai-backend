@@ -1,0 +1,8 @@
+pipeline:
+  - name: test
+    steps:
+      - run: pip install -r requirements.txt
+  - name: deploy
+    steps:
+      - run: docker build -t education-ai-backend .
+      - run: docker push education-ai-backend/education-ai-backend

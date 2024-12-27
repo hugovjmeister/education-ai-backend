@@ -1,0 +1,22 @@
+{
+	"project": {
+	  "name": "Education AI",
+	  "description": "Una aplicación web construida con Reflex",
+	  "version": "1.0.0",
+	  "author": "Hugo Fernandez",
+	  "license": "MIT"
+	},
+	"settings": {
+	  "port": 3000,
+	  "host": "0.0.0.0",
+	  "debug": true
+	},
+	"dependencies": {
+	  "flask": "^2.0.0",
+	  "reflex": "^0.1.0"
+	},
+	"scripts": {
+	  "start": "reflex run",
+	  "build": "reflex build"
+	}
+}
